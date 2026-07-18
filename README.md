@@ -4,6 +4,9 @@ Known-good baseline binaries for the NSI student experiment PODs. Students norma
 
 Source code is proprietary to Atlantis Educational Services, Inc. and is not published here — this repository hosts official compiled firmware releases only.
 
+> **Note**: the "Source code (zip / tar.gz)" links GitHub automatically attaches to every release contain only this README — no source code is published in this repository. The `.hex` assets are compiled machine code.
+
+
 ## Which file?
 
 Pick by your pod's board and its POD ID (1, 2 or 3 — each pod on a flight must use a different one):
