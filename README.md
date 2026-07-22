@@ -153,6 +153,10 @@ always compare your file to the template to see exactly what you added.
 
 ## Credits & license
 
+This code is published under the **[NSI POD Firmware License](LICENSE.md)** — in short: free to use and
+modify with genuine NSI hardware for the NSI program; no redistribution outside your organization, no
+commercial use, and no use to build cloned or competing hardware.
+
 Firmware and examples © 2026 **Atlantis Educational Services, Inc.**, for the **Near Space Investigation®** program.
 Base template and the Random / Geiger examples by Andrew Gafford. Sensor examples build on that template.
 
