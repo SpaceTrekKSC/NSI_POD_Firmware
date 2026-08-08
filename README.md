@@ -149,6 +149,16 @@ always compare your file to the template to see exactly what you added.
 - **Analog** (photoresistor / TMP36): sensor output → an analog pin (A0, A1, …).
 - **Geiger / pulse source**: pulse output → **D2** (a hardware-interrupt pin), common GND.
 
+### Uno or Mega 2560 — both work
+
+Every sketch here is checked on **both** an Arduino Uno and an Arduino Mega 2560; the largest example uses 46 % of an
+Uno's program space and 6 % of a Mega's, so neither board runs short.
+
+The XBee that talks to the Flight Computer sits on **pins 0 and 1** (`Serial`) on both boards. That is the same port
+the USB cable uses, which is why the shield has to come off to upload — on the Uno *and* on the Mega. The Mega's extra
+serial ports (`Serial1`–`Serial3`) are deliberately not used, so that one set of instructions fits both boards and a
+sketch written on one runs unchanged on the other.
+
 ---
 
 ## Credits & license
